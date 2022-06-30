@@ -41,6 +41,10 @@ function tinker {
   artisan tinker
 }
 
+function dev {
+  exec npm run dev
+}
+
 function start {
   echo "start task not implemented"
 }
